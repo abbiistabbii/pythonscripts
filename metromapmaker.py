@@ -8,6 +8,15 @@ turtle.pensize(5)
 turnamount = [0, 450, 540, 630]
 
 colour = ["red", "orange", "yellow", "green", "blue", "purple", "black"]
+stationnames = ["Princes Street", "Bankhead", "Saughton", "Balgreen", "Murrayfield", "Haymarket", "West End", "Ocean Terminal"]
+
+
+def stationname():
+	stationnamechosen = stationnames[random.randint(0, 7)]
+	offset = 7
+	turtle.teleport(turtle.xcor() + offset, turtle.ycor() + offset)
+	turtle.write(stationnamechosen)
+	turtle.teleport(turtle.xcor() - offset, turtle.ycor() - offset)
 
 def mainstation():
 	turtle.teleport(0,0)
@@ -62,6 +71,8 @@ def linemaker():
 
 	endstation()
 
+
+stationname()
 for x in range(0, 6):
 	linemaker()
 	mainstation
