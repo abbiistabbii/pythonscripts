@@ -5,24 +5,25 @@ import random
 turtle.pensize(5)
 
 
-turnamount = [0, 450, 540, 630]
-
 colour = ["red", "orange", "yellow", "green", "blue", "purple", "black"]
 stationnames = ["Princes Street", "Bankhead", "Saughton", "Balgreen", "Murrayfield", "Haymarket", "West End", "Ocean Terminal"]
-
+circ = 360
+stanumb = 0
 
 def stationname():
-	stationnamechosen = stationnames[random.randint(0, 7)]
-	offset = 7
-	turtle.teleport(turtle.xcor() + offset, turtle.ycor() + offset)
-	turtle.write(stationnamechosen)
-	turtle.teleport(turtle.xcor() - offset, turtle.ycor() - offset)
+
+	stationnamechosen = stationnames[stanumb]
+	offsetx = 11
+	offsety = 11
+	turtle.teleport(turtle.xcor() + offsetx, turtle.ycor() + offsety)
+	turtle.write(stationnamechosen, align="left")
+	turtle.teleport(turtle.xcor() - offsetx, turtle.ycor() - offsety)
 
 def mainstation():
-	turtle.teleport(0,0)
 	turtle.seth(90)
+	turtle.teleport(0,0)
 	turtle.pencolor(colour[6])
-	turtle.circle(10, turnamount[random.randint(0, 3)])
+	turtle.circle(10, circ)
 	turtle.right(90)
 
 def lineandstations():
@@ -36,8 +37,9 @@ def lineandstations():
 def endstation():
 	turtle.forward(10)
 	turtle.right(90)
-	turtle.pencolor(colour[6])
+	turtle.pencolor("black")
 	turtle.circle(10)
+	stationname()
 
 def bendmaker():
 	benddirection = random.randint(0, 2)
@@ -60,6 +62,7 @@ def bendmaker():
 
 
 def linemaker():
+
 	mainstation()
 
 	turtle.pencolor(colour[random.randint(0, 5)])
@@ -72,9 +75,18 @@ def linemaker():
 	endstation()
 
 
+turtle.teleport(0, 0)
+turtle.seth(90)
 stationname()
-for x in range(0, 6):
+for x in range(0, 4):
+	stanumb += 1
 	linemaker()
-	mainstation
+	circ += 90
+
+turtle.teleport(0,0)
+turtle.seth(90)
+turtle.circle(10)
+
 
 turtle.done()
+
