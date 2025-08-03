@@ -2,7 +2,7 @@
 # This simple script exists to take a whole load of phrases and memes and randomly choose them.
 # This is basically me playing around with lists and the random library to see what I can do while learning Python.
 # This collection of memes, phrases, and slogans can (and likely will) be very handy for some, so please feel free to copy this code or add to it :3
-# One thing you can use this for is to pipe it into cowsay (or similar) with "<path to this script>/phraserandomiser.py | cowsay"
+# One thing you can use this for is to pipe it into cowsay (or simular) with "<path to this script>/phraserandomiser.py | cowsay"
 # Anyway, have fun, contribute more at https://github.com/abbiistabbii/pythonscripts/blob/main/phraserandomiser.py!
 
 import random
@@ -74,9 +74,49 @@ phraselist = ["Master Skywalker, did you know that in terms of human pokemon bre
 "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible.",
 "I am going to punch your face...in the face",
 "I like trains.",
+"Morse Pacman also eats dashes",
+"Any joke is a one-liner if your page is wide enough",
+"If you say slurs in front of your pets when they die they'll inform the universe and you will be punished for it",
+"On the internet, no-one can hear you unless you buy a bunch of bots to artificially amplify your reach",
+"You should stop noticing the frames of your glasses right now",
+"Baby carrots aren't even made out of babies",
+"Be they, do crime",
+"I'm not sure if hot air baloons and blimps are friends but I think they should be",
+"Does going through the washing machine feel like a spa day for our towels?",
+"Who made it a rule that we're supposed to answer our front door when it gets knocked on unannounced? And how am I the asshole as the knockee ignoring you and not you as the knocker who showed up out of nowhere?",
+"The smaller the spoon, the smaller the portion, but also, the smaller the spoon the higher the chance a big spoon will hug you",
+"This is the 88th line of this document and quite frankly I'm suspicious of its political views",
+"Having an air fryer is not a personality",
+"Having a waffle iron is absolutely a personality",
+"The existence of GITHub infers the existence of GITSpokes",
+"Does GITHub have a GITSpokesperson?",
+"Wait, so this doesn't get installed in my butt? Ohhhhh, it's not a supository it's a repository. But surely you can put it on a flash drive with a flared base tho...",
+"The worst thing about being a people pleaser is you're people too, but rarely do people please you",
+"If your wanted a red shirt instead of a blue shirt just run away super fast from whomever is criticising it",
+"The moon has a large concave circle on its face, it has a light side, it has a dark side, and it's no moon it's OUR moon, you know I'm starting to think George Lucas just straight up stole the story for Star Wars from our moon and obviously Seven Samurai",
+"Do it, give in to the urge, turn your keyboard upside down and shake it over your food like its contents are a condiment",
+"If you accidentally eat year old food and skin particles don't tell the ER it's because you shook your never cleaned keyboard over your dinner just to see what it'd taste like",
+"The easiest way to remember which bracket is 'less than' is to imagine turning the < key 45 degrees counter-clockwise, and then it's an L. Big Programming doesn't want you to know this",
+"All that poop coming out of your anus, so much poop that it's making you famous",
+"Did you even ask the grass if it wanted to be touched",
+"If you ordered something Next Day Delivery and then it didn't arrive, are you sure you're not just reliving the previous day?",
+"If it involves mayonaise, gelatin, or anything sweet, it's not a salad and get out of the Mid-West USA ASAP",
+"Imagine if you had to get a plaster cast every time you broke a tooth, having this wet plaster in your mouth for 6 weeks, wouldn't that be gross?",
+"Did you know your keyboard's letters are in that order because the factory printed them that way?",
+"It is better to underpromise and overdeliver but what's in the middle of those two?",
+"Don't look, but it's behind you, no don't look, it will know",
+"Do you ever wonder what the total word count of your life will be? And how the editor of your autobiography will hate you because you just couldn't stop yapping?",
+"My biography will be cringed on true events",
+"Those poor lonely variables, I can't believe a comma came in and seperated them",
+"Everything you create of value will be stolen by an LLM and recycled back at someone without crediting you, so be sure to only make things which are incredibly gross",
+"When you have no good ideas simply write down whatever comes to mind to remind yourself that yes, you have no good ideas",
+"When a friend asks you to do them a favour that you know is important, never forget to",
 ]
 
 endnumber = len(phraselist)
 randomnumber = random.randint(0, endnumber-1)
 
 print(phraselist[randomnumber])
+
+
+
