@@ -72,10 +72,13 @@ phraselist = ["Master Skywalker, did you know that in terms of human pokemon bre
 "Do you know what C Equals?",
 "Aurora Borealis? At this time of year! At this time of day! In this part of the country! Localized entirely within your kitchen?!?",
 "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible.",
+"I am going to punch your face...in the face",
+"I like trains."
 ]
 
 endnumber = len(phraselist)
 randomnumber = random.randint(0, endnumber-1)
 
 print(phraselist[randomnumber])
+
 
