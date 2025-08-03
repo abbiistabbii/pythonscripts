@@ -3,7 +3,7 @@
 # This is basically me playing around with lists and the random library to see what I can do while learning Python.
 # This collection of memes, phrases, and slogans can (and likely will) be very handy for some, so please feel free to copy this code or add to it :3
 # One thing you can use this for is to pipe it into cowsay (or simular) with "<path to this script>/phraserandomiser.py | cowsay"
-# Anyway, have fun, contribute!
+# Anyway, have fun, contribute more at https://github.com/abbiistabbii/pythonscripts/blob/main/phraserandomiser.py!
 
 import random
 
@@ -78,3 +78,4 @@ endnumber = len(phraselist)
 randomnumber = random.randint(0, endnumber-1)
 
 print(phraselist[randomnumber])
+
