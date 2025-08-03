@@ -111,12 +111,34 @@ phraselist = ["Master Skywalker, did you know that in terms of human pokemon bre
 "Everything you create of value will be stolen by an LLM and recycled back at someone without crediting you, so be sure to only make things which are incredibly gross",
 "When you have no good ideas simply write down whatever comes to mind to remind yourself that yes, you have no good ideas",
 "When a friend asks you to do them a favour that you know is important, never forget to",
+"how do i get cowboy paint off a dog.",
+"Welcome to the citadel of eternal wisdom. Behold, this crystal contains the sum of all human knowledge -- Except Rap And Country.",
+"fuck 'jokes'. everything i tweet is real. raw insight without the horse shit. no, i will NOT follow trolls. twitter dot com. i live for this ",
+"'Is Wario A Libertarian' - the greatest thread in the history of forums, locked by a moderator after 12,239 pages of heated debate,",
+"see this watch? i got it by Crying. my car? crying. my beautiful wife? Crying. My perfect teeth? Crying. now get the fuck out of my office ",
+"another day volunteering at the betsy ross museum. everyone keeps asking me if they can fuck the flag. buddy, they wont even let me fuck it",
+"how come a baby born with a foot in its brain is considered a 'Miracle Baby' but when I get my dick stuck in a drawer im just some asshole ",
+"'jail isnt real,' i assure myself as i close my eyes and ram the hallmark gift shop with my shitty bronco",
+"THE COP GROWLS 'TAKE OFF TH OSE JEANS, CITIZEN.' I COMPLY, REVEALING THE FULL LENGTH DENIM TATTOOS ON BOTH LEGS. THE COP SCREAMS; DEFEATED",
+"the doctor reveals my blood pressure is 420 over 69. i hoot & holler outta the building while a bunch of losers try to tell me that im dying ",
+"strongest blade in the world, however, it is so fragile as to shatter when handled by any force other than the delicate touch of a lesbian .",
+"who the fuck is scraeming 'LOG OFF' at my house. show yourself, coward. i will never log off ",
+"IF THE ZOO BANS ME FOR HOLLERING AT THE ANIMALS I WILL FACE GOD AND WALK BACKWARDS INTO HELL",
+"'This Whole Thing Smacks Of Gender,' i holler as i overturn my uncle's barbeque grill and turn the 4th of July into the 4th of Shit",
+"my disrespectful teen son somehow got hold of a gluten product and now he wants to become a cat girl ",
+"if your grave doesnt say 'rest in peace' on it you are automatically drafted into the skeleton war",
+"its the weekend baby. youknow what that means. its time to drink precisely one beer and call 911",
+"awfully bold of you to fly the Good Year blimp on a year that has been extremely bad thus far",
+"the jduge orders me to take off my anonymous v mask & im wearing the joker makeup underneath it. everyone in the courtroom groans at my shit",
+"so long suckers! i rev up my motorcylce and create a huge cloud of smoke. when the cloud dissipates im lying completely dead on the pavement ",
+"the human mind... perhaps the most powerful weapon. second only to the 'GUN'",
+"people come up to me and say, 'I will never use the bathroom. I will never shit' and i gotta tell them pal, sooner or later youre gonna shit",
+"go ahead. keep screaming 'Shut The Fuck Up ' at me. it only makes my opinions Worse ",
+"the worst part of nationalism is having to pretend the flag is really good, like 'yeah the country looks exactly like that. they nailed it' ",
+"Twitter, as I understand it, is a sort of 'Hell' that I was banished to upon death in my previous life.",
 ]
 
 endnumber = len(phraselist)
 randomnumber = random.randint(0, endnumber-1)
 
 print(phraselist[randomnumber])
-
-
-
