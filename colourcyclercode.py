@@ -21,7 +21,7 @@ max = 255 # The max number an RGB Code can be!
 
 # this is the colour changer loop!
 
-for x in range(1528):
+for x in range(300):
 	if r == max and g != max and b == 0:
 		g += inc
 	elif r != 0  and g == max and b == 0:
