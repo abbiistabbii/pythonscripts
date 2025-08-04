@@ -44,3 +44,5 @@ for x in range(1528):
 	y -= 1
 	cr += 1
 	turtle.teleport(0, y)
+
+turtle.done()
